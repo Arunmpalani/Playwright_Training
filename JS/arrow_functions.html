@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    console.log("This is Function Demo page");
+    function greetUser(name) {
+        console.log("Hello, " + name + "!");
+        console.log("Welcome to the Function Demo page.");
+    }
+
+    greetUser("Alice");
+    greetUser("Bob");
+    greetUser("Charlie");
+    greetUser("Diana");
+
+    function add(a, b) {
+        return a + b;
+    }
+
+    console.log("Sum of 5 and 10 is: " + add(5, 10));
+    document.write("Sum of 5 and 10 is: " + add(5, 10))
+    let food = (item, price) => {
+         return "Eat" + item + "pay $" + price
+         }
+    console.log(food("pizza", 5.3));
+</script>
+
+</html>
